@@ -6,7 +6,7 @@ class Project extends Component {
     let classes = this.props.imgName + " portfolio-img" ;
 
     return(
-      <div>
+      <div id="project">
         <h2>{ this.props.title }</h2>
         <div className={ classes } ></div>
         <p>{ this.props.description }</p>
